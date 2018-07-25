@@ -1,16 +1,16 @@
 {
-  "current_progress": [
+  "recorded_progress": [
     {
       "id": 1,
-      "progress": 7000
+      "progress": 30
     },
     {
       "id": 2,
-      "progress": 15500
+      "progress": 25
     },
     {
       "id": 3,
-      "progress": 11250
+      "progress": 13
     }
   ]
 }

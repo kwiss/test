@@ -8,9 +8,7 @@ Your feature aim to help these users to planify well those task, and track their
 
 # Level 1
 
-The essential attributes of goal are their start value and their target.
-
-For instance here is a real life objective :
+Example of a real life objective :
 ```
 {
   id: 17548,
@@ -21,4 +19,6 @@ For instance here is a real life objective :
 }
 ```
 
-Given the current value of an objective, calculate its current progression in percent.
+We are only working on start and target.
+
+For each objective, its current_progress is calulated in percent thanks to the value of the associated `record` object.
