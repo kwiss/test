@@ -1,0 +1,16 @@
+{
+  "excess_percent": [
+    {
+      "id": 1,
+      "excess": 153
+    },
+    {
+      "id": 2,
+      "excess": -7
+    },
+    {
+      "id": 3,
+      "excess": -67
+    }
+  ]
+}
