@@ -22,7 +22,7 @@ For higher levels we are interested in seeing code that is clean, extensible and
 
 ## Contact
 
-- You should already be in contact with Javelo team, don't hesitate to ask if something seems wrong
+- You should already be in contact with a the Javelo team member, don't hesitate to ask if something seems wrong
 - When you are done, send the link of your repository to this contact
 
 Good luck!
