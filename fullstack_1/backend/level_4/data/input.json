@@ -7,7 +7,7 @@
     { "id": 5, "parent_id": 6, "coef": 2 },
     { "id": 6 }
   ],
-  "records": [
+  "progress_records": [
     { "id": 1, "objective_id": 1, "value": 15, "date": "2018-01-12" },
     { "id": 2, "objective_id": 3, "value": 10, "date": "2018-02-20" },
     { "id": 3, "objective_id": 2, "value": 14, "date": "2018-02-18" },
