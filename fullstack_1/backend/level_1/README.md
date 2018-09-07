@@ -6,7 +6,7 @@ An objective represents a task that a user should accomply within a certain amou
 
 This feature aims to help these users planify well those tasks, and track their progression in order to accomplish them smoothly and on time.
 
-Example of a real life objective :
+Example of a real life objective:
 ```
 {
   id: 17548,
@@ -21,6 +21,6 @@ Example of a real life objective :
 
 # Level 1 : Achivement in percentage
 
-In this level, we are intersted in some records of objective's progress. For each one you should calculate the corresponding `progress` value.
+In this level, we'll focus on some records of objective's progress. For each one you should compute the corresponding `progress` value.
 
-This progress is the percentage of accomplishement the value of the `progress_record` represents for the objective.
+Progress is the percentage achieved the value of the `progress_record` represents for the objective.
