@@ -23,4 +23,4 @@ Example of a real life objective:
 
 In this level, we'll focus on some records of objective's progress. For each one you should compute the corresponding `progress` value.
 
-Progress is the percentage achieved the value of the `progress_record` represents for the objective.
+Progress is the objective's percentage achieved the value of the `progress_record` represents.
