@@ -2,9 +2,9 @@
 
 ### Intro
 
-We provide an `index.html` file. When opened in a browser, this one displays a simple message using React.
+We provide a skeleton app in the  `front-app` directory. You'll see details on how launch and visualize it in it's README.md file.
 
-You have to use it in order to complete all of this test's levels.
+When launched in a browser, you'll see a simple message using React. You have modify that app in order to complete all of this test's levels.
 
 ## Level 1 : React
 
