@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
+import logo from "../../logo.svg";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -39,6 +39,9 @@ class Header extends Component {
           </MenuItem>
           <MenuItem>
             <MenuItemLink to="/lvl1">Level - 1</MenuItemLink>
+          </MenuItem>
+          <MenuItem>
+            <MenuItemLink to="/lvl2">Level - 2</MenuItemLink>
           </MenuItem>
         </Menu>
       </header>

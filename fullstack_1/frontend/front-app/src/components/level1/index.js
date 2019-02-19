@@ -14,7 +14,6 @@ const List = styled.ul`
 class Level1 extends Component {
   render() {
     const { objectives, today } = this.props;
-    console.log(this.props);
     return (
       <div>
         <ObjectiveHeader objectives={objectives} />
