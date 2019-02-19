@@ -1,24 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import OBJECTIVES from "./data.json";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-// You're on the good file to start
+import Header from "./header";
+import Level1 from "./level1";
+
+import "./App.css";
+import OBJECTIVES from "./data.json";
 
 const TODAY = "2018-02-20";
 
 class App extends Component {
   render() {
-    console.log(OBJECTIVES.length)
-
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            {"Welcome to the JAVELO CHALLENGE! Good luck ;)"}
-          </p>
-        </header>
+        <Router>
+          <div>
+            <Header />
+            {/* <Route exact path="/" component={Home} /> */}
+            <Route
+              path="/lvl1"
+              render={() => <Level1 objectives={OBJECTIVES} today={TODAY} />}
+            />
+          </div>
+        </Router>
+        {/* <Route path="/lvl2" component={Level2} />
+        <Route path="/lvl3" component={Level3} />
+        <Route path="/lvl4" component={Level4} /> */}
       </div>
     );
   }
