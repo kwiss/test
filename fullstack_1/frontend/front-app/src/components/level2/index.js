@@ -4,29 +4,20 @@ import Tree from "react-tree-graph";
 import "react-tree-graph/dist/style.css";
 import "./tree.css";
 
-const transformToD3Hierarchy = objectives => {
-  objectives.forEach(currObjective => {
-    delete currObjective.children;
-    if (currObjective.hasOwnProperty("parent_id")) {
-      const parent = objectives.find(obj => obj.id === currObjective.parent_id);
-      if (!parent.hasOwnProperty("children")) {
-        parent.children = [];
-      }
-      parent.children.push(currObjective);
-    }
-  });
-  return objectives.find(objective => !objective.parentId);
-};
-
 class Level1 extends Component {
+  shouldComponentUpdate(nextProps) {
+    if (this.props.objectives === nextProps.objectives) {
+      return false;
+    }
+  }
+
   render() {
     const { objectives } = this.props;
-    const formatedObjectives = transformToD3Hierarchy(objectives);
     return (
       <div>
         <h2>Level 2</h2>
         <Tree
-          data={formatedObjectives}
+          data={objectives}
           height={800}
           width={1280}
           keyProp="id"
