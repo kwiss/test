@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "../header";
 import Level1 from "../level1";
 import Level2 from "../level2";
+import Level3 from "../level3";
 
 import "./App.css";
 
@@ -24,6 +25,10 @@ class App extends Component {
             <Route
               path="/lvl2"
               render={() => <Level2 objectives={OBJECTIVES} today={TODAY} />}
+            />
+            <Route
+              path="/lvl3"
+              render={() => <Level3 objectives={OBJECTIVES} today={TODAY} />}
             />
           </div>
         </Router>

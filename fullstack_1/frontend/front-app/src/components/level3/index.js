@@ -11,9 +11,15 @@ const List = styled.ul`
   flex-wrap: wrap;
 `;
 
-class Level1 extends Component {
+class Level3 extends Component {
+  state = {
+    objectives: this.props.objectives
+  };
+
   render() {
-    const { objectives, today } = this.props;
+    const { objectives } = this.state;
+    const { today } = this.props;
+
     return (
       <div>
         <ObjectiveHeader objectives={objectives} />
@@ -32,4 +38,5 @@ class Level1 extends Component {
     );
   }
 }
-export default Level1;
+
+export default Level3;

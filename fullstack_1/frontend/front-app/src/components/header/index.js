@@ -43,6 +43,9 @@ class Header extends Component {
           <MenuItem>
             <MenuItemLink to="/lvl2">Level - 2</MenuItemLink>
           </MenuItem>
+          <MenuItem>
+            <MenuItemLink to="/lvl3">Level - 3</MenuItemLink>
+          </MenuItem>
         </Menu>
       </header>
     );
